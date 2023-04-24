@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block body %}
+
+    <h1>Profile</h1>
+
+    <dl>
+        <img src="/project/{{ user.avatar }}" class="rounded-circle" alt="Cinque Terre" width="304" height="304">
+        <dt>Name</dt>
+        <dd>{{ user.name }}</dd>
+        <dt>email</dt>
+        <dd>{{ user.email }}</dd>
+        <dt>Age</dt>
+        <dd>{{ user.age }}</dd>
+    </dl>
+
+    <a href="/project/profile/edit" class="btn btn-primary btn-md">Edit Profile</a>
+
+
+{% endblock %}

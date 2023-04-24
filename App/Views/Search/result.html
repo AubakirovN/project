@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Profile List{% endblock %}
+
+
+{% block body %}
+
+<h1>Search users</h1>
+{{ include('Search/search_form.html') }}
+<table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+    <thead>
+    <tr>
+        <th class="th-sm">ID
+        </th>
+        <th class="th-sm">Name
+        </th>
+        <th class="th-sm">Email
+        </th>
+        <th class="th-sm">BirthDate
+        </th>
+        <th class="th-sm">Age
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.birth_date }}</td>
+        <td>{{ user.age }}</td>
+    </tr>
+
+    </tbody>
+    <tfoot>
+    <tr>
+        <th>ID
+        </th>
+        <th>Name
+        </th>
+        <th>Email
+        </th>
+        <th>BirthDate
+        </th>
+        <th>Age
+        </th>
+    </tr>
+    </tfoot>
+</table>
+
+
+{% endblock %}

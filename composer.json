@@ -1,0 +1,18 @@
+{
+  "require": {
+    "twig/twig": "~2.0",
+    "ext-pdo": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "App\\": "App/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
