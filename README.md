@@ -2,9 +2,9 @@
 User profile mvc app
 
 1.First, download the framework, either directly or by cloning the repo.
-2.Run composer update to install the project dependencies.
-3.Configure your web server to have the public folder as the web root.
-4.Open App/Config.php and enter your database configuration data.
+<br/>2.Run composer update to install the project dependencies.
+<br/>3.Configure your web server to have the public folder as the web root.
+<br/>4.Open App/Config.php and enter your database configuration data.
 
 Note
 site home url is 'project/'.
