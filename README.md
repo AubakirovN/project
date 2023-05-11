@@ -1,5 +1,10 @@
 # project
 User profile mvc app
+Used programmig principles:
+1. Solid
+2. KISS, DRY
+3. PSR-12
+4. PSR-4
 
 1.First, download the framework, either directly or by cloning the repo.
 <br/>2.Run composer update to install the project dependencies.
